@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<link href="style.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Banana Joe</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+    </head>
+    <body>
+    
+        <div class="head">
+            <div class="logo">
+                <img src="{% static 'home/images/logo.png' %}" alt="Logo">
+            </div>
+
+            <div class="nav">
+                <a href="#">Бенени</a>
+                <a href="#">Сорти бененів</a>
+                <a href="#">Мобільний додаток</a>
+            </div>
+        </div>
+
+        <div class="africa">
+            <div class="africa__image">
+                <img src="{% static 'home/images/africa.png' %}" alt="">
+            </div>
+
+            <div class="africa__description">
+                <h2>
+                    Близько 300 сортів бененів вирощуються неграми на наших полях
+                </h2>
+
+                <p>
+                    ЗА КОЖЕН 50 КІЛОГАМ БЕНЕНІВ НЕГР В ПОДАРУНОК!!!
+                </p>
+
+                <p>
+                    Встановлюй додаток та дізнавайся про всі знижки на окремі сорти бененів та негрів
+                </p>
+                
+                <img src="{% static 'home/images/app_store.png' %}" alt="">
+
+                <img src="{% static 'home/images/google_store.png' %}" alt="">
+
+            </div>
+        </div>
+
+        <div class="vadila">
+            <div class="vadila__image">
+                <img src="{% static 'home/images/vadila.png' %}" alt="">
+            </div>
+        
+
+            <div class="vadila__description">
+                <h2>
+                    Доставка бененів по всій  Європі та Азії
+                </h2>
+
+                <p>
+                    Швидка та надійна. Один з найкращих водіїв на фото. Ваш товар приїде настільки швидко що ви помрете від передозу!!!
+                </p>
+            </div>
+        </div>
+        
+        <div class="anketa">
+            <div class="anketa_img">
+                <img src="{% static 'home/images/beneni.png' %}"width="668" height="446" alt="">
+            </div>
+
+            <div class="anketa_description">
+                <input placeholder="Ваше ім'я">
+            
+                <input placeholder="Електронна пошта">
+                    
+                <input placeholder="Номер телефону">
+                    
+                <input placeholder="Адреса доставки">
+                    
+                <input placeholder="Вага">
+                    
+                <button>
+                    Відправити форму
+                </button>
+
+            </div>
+        </div>
+
+        <div class="podval">
+            <div class="podval_img">
+                <img src="{% static 'home/images/podval.png' %}" alt="">
+            </div>
+
+            <div class="podval_nav">
+                <a href="#">Зателефонувати нам</a>
+                <a href="#">Написати нам</a>
+            </div>
+        </div>
+    </body>
+</html>

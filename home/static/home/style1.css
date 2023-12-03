@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color:blue;
+}
+
+h3 {
+    color:brown;
+}
+
+.car {
+    background-color: green;
+    color: red;
+    padding: 5px;
+
+    margin-bottom: 5px;
+}
+
+.high-price {
+    background-color: blue;
+}
+
+.low-price {
+    background-color:yellow;
+}

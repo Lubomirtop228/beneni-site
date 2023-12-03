@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:#F4F5B9;
+    margin: 30;
+}
+
+.head {
+    background-color: #D7FF63;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:10px ;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 250px;
+}
+
+.africa {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.africa__description {
+    padding: 10px;
+
+}
+
+.africa__description h2 {
+    margin: 0;
+}
+
+.vadila {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.vadila__description {
+    padding: 10px;
+}
+
+.vadila__image {
+    margin-right: 10px;
+}
+
+.anketa {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.anketa_description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.anketa_description input {
+    background-color: #CBFE5F;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-size: contain;
+    width: 100%;
+}
+
+.anketa_img {
+    margin-right: 10px;
+}
+
+.anketa_description button {
+    background-color: #35E972;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.anketa_description button:hover {
+    background-color:#48b850;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.podval {
+    background-color: #FFFDC3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.podval_nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 300px;
+}
